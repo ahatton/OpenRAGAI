@@ -1,0 +1,11 @@
+function delay(ms: number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+  
+async function longMessage(){
+    await delay(5000);
+    return "Dear [Friend's Name], I hope this letter finds you in good health and spirits. I felt compelled to write this note to apologize for the terrible typescript I recently sent your way. I am truly sorry for the inconvenience and frustration it may have caused you, and I take full responsibility for my oversight. As your best friend, I understand how much your time and effort mean to you, and I deeply regret that my mistake may have hindered your progress or caused unnecessary stress. It was never my intention to let you down or make things more difficult for you. I want you to know that I am committed to making it right and ensuring that such errors do not occur in the future. I understand the importance of effective communication, especially when relying on one another's support and assistance. In light of this, I am actively working on improving my typing skills, paying closer attention to detail, and proofreading my work more thoroughly before sending it to anyone. I value our friendship tremendously, and the last thing I want is for miscommunication or carelessness on my part to come between us. I truly hope you can find it in your heart to forgive my poor typescript and for any inconvenience it may have caused you. Please know that I am always here for you, ready to lend a hand or make amends whenever necessary. I genuinely appreciate your understanding and patience, and I want to assure you that I won't take your friendship for granted. Once again, I am deeply sorry for any trouble I might have caused, and I sincerely regret any frustration or inconvenience my terrible typescript may have brought upon you. If there is anything I can do to rectify the situation or make it up to you, please do not hesitate to let me know. Wishing you only the best, and looking forward to many more years of friendship. Sincerely, [Your Name]";
+    
+  }
+
+export default longMessage;
